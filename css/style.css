@@ -2,16 +2,7 @@ body {
   background-image: url(../images/background2.jpg);
   font-family: 'Tangerine', serif;
   font-size: 36px;
-  text-shadow: 4px 4px 4px #aaa;
-  color: white;
-}
-
-.body1 {
-  background-image: url(../images/background2.jpg);
-  font-family: 'Tangerine', serif;
-  font-size: 36px;
-  text-shadow: 4px 4px 4px #aaa;
-  color: white;
+  color: blue;
 }
 
 .carousel {
@@ -71,4 +62,10 @@ body {
 
 #social ul {
   list-style: none;
+}
+
+.container12 {
+  background-color: white;
+  border: 33px solid white;
+  padding-top: -25px;
 }

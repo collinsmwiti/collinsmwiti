@@ -9,6 +9,7 @@
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css" type="text/css">
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Tangerine">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <style>
     body {
       font-family: 'Tangerine', serif;
@@ -28,37 +29,83 @@
         <li><a href="contacts.html">Contacts</a></li>
       </ol>
     </div>
-  </div>
-  <div class="page-header">
-    <h1>Contacts</h1>
-  </div>
-  <address>
-  Collins Mwiti<br>
-  Nairobi,Kenya<br>
-  <abbr title="Phone">P:</abbr> 0723844166
-</address>
+    <div class="page-header">
+      <h1 style="text-align:center">Contacts</h1>
+    </div>
+    <div class="col-md-6 project">
+      <address>
+        Collins Mwiti<br>
+        Nairobi,Kenya<br>
+        <abbr title="Phone">P:</abbr> 0723844166
+      </address>
 
-  <address>
+      <address>
   <strong>Kindly my emails are:</strong><br>
   <a href="mailto:#">collotush@gmail.com</a><br>
   <a href="mailto:#">mwiticmutumamwenda@gmail.com</a><br>
   <a href="mailto:#">mwiticollins@yahoo.com.com</a>
 </address>
+    </div>
+    <div class="col-md-6 project">
+      <h1><strong>Kindly for any enquiries, please fill in the below form</strong></h1>
+      <form action="" method="post" id="contactForm" name="contactForm">
+        <fieldset>
+          <div>
+            <label for="contactName">Name <span class="required">*</span></label>
+            <input type="text" value="" size="20" id="contactName" name="contactName">
+          </div>
+          <div>
+            <label for="contactEmail">Email <span class="required">*</span></label>
+            <input type="text" value="" size="20" id="contactEmail" name="contactEmail">
+          </div>
+          <div>
+            <label for="contactSubject">Subject</label>
+            <input type="text" value="" size="20" id="contactSubject" name="contactSubject">
+          </div>
+          <div>
+            <label for="contactMessage">Message <span class="required">*</span></label>
+            <textarea cols="30" rows="15" id="contactMessage" name="contactMessage"></textarea>
+          </div>
+          <div>
+            <a href="mailto:#" button type="submit" class="btn btn-primary" alert( "you have been successfully added to our email list. Thank you.")>Submit</a></button>
+            <span id="image-loader">
+            </span>
+          </div>
+        </fieldset>
+      </form>
+    </div>
+  </div>
 
   <div class="row">
-    <div class="col-md-4">
-      <a href="https://www.facebook.com/campaign/landing.php?campaign_id=779084298827899&partner_id=admarket&placement=Kenya&extra_1=1486455888200200003"><img src="images/facebook.jpeg" title="facebook" alt="facebook"></a>
+    <div class="socialmedia">
+      <div class="container12">
+        <ul class="social" style="list-style-type: none">
+          <div class="col-md-2 project">
+            <li><a href="https://www.facebook.com/login"><i class="fa fa-facebook"></i></a></li>
+          </div>
+          <div class="col-md-2 project">
+            <li><a href="https://twitter.com/login"><i class="fa fa-twitter"></i></a></li>
+          </div>
+          <div class="col-md-2 project">
+            <li><a href="https://plus.google.com/collections/featured?hl=en"><i class="fa fa-google-plus"></i></a></li>
+          </div>
+          <div class="col-md-2 project">
+            <li><a href="https://www.linkedin.com/"><i class="fa fa-linkedin"></i></a></li>
+          </div>
+          <div class="col-md-2 project">
+            <li><a href="https://www.instagram.com/?hl=en"><i class="fa fa-instagram"></i></a></li>
+          </div>
+          <div class="col-md-2 project">
+            <li><a href="https://www.skype.com/en/"><i class="fa fa-skype"></i></a></li>
+          </div>
+        </ul>
+      </div>
     </div>
-    <div class="col-md-4">
-      <a href="https://twitter.com/login"><img src="images/twitter.png" title="twitter" alt="twitter"></a>
-    </div>
-    <div class="col-md-4">
-      <a href="https://www.instagram.com/accounts/login/"><img src="images/instagram.jpeg" title="instagram" alt="instagram"></a>
-    </div>
+  </div>
 
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/script.js"></script>
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
 
 </html>
